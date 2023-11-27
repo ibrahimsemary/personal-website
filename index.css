@@ -1,0 +1,47 @@
+.topbar {
+    display: grid;
+    grid-template-columns: repeat(8, 1fr);
+    margin-left: 30px;
+    margin-right: 30px;
+}
+.topbar-item {
+    display:flex;
+    height: 100%;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+.topbar-item:hover{
+    background-color: black;
+    color: white
+}
+
+.home-intro {
+    margin: 20px;
+}
+
+.home-picture {
+    margin: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.home-body {
+    display: grid;
+    margin-top: 5%;
+    margin-left: 30px;
+    margin-right: 30px;
+
+    height: 600px;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.home-writing {
+    margin: 20px;
+    font-size: large;
+    line-height: 30px;
+}
+
+.home-pic {
+    height: 450px;
+}

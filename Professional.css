@@ -1,0 +1,37 @@
+.experience {
+    margin-top: 30px;
+}
+
+.experience-header {
+    width: 100%;
+}
+
+.experience-section-1 {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.experience-img {
+    height: 100px
+}
+.experience-img-service {
+    height: 200px
+}
+.experience-column-img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.experience-img-2 {
+    height: 100px;
+}
+.media-img{
+    padding:20px;
+    height: 250px;
+    width:250px;
+}
+.overarching{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
